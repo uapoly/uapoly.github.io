@@ -1,0 +1,16 @@
+# Site settings
+title: UAPoly
+email: uapoly@uagames.proyect
+description: > 
+  De los creadores de UAParchís llega... ¡UAPoly!
+  UAPoly es un videojuego basado en el clásico juego de mesa Monopoly, el cual se ha ambientado en la Universidad de Alicante. 
+  Adéntrate en un mundo virtual donde podrás comprar, vender y negociar propiedades para construir tu imperio inmobiliario (y graduarte).
+  Con gráficos modernos y conocidas mecánicas de juego, UAPoly ofrece una experiencia fresca y emocionante para los amantes del Monopoly y, además, estudiantes.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "uapoly.github.io" # the base hostname & protocol for your site
+
+twitter_username: uapoly
+github_username: uapoly
+
+# Build settings
+markdown: kramdown
