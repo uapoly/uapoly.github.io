@@ -34,11 +34,26 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
+$theme-primary: #2fa700;
+$theme-dark: #2fa700;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
         "base"
 ;
+
+.header-content-inner-dos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; /* Asegura que el contenido ocupe toda la altura del contenedor */
+
+        .top-content {
+                align-self: flex-start; /* Alinea este contenido en la parte superior */
+        }
+
+        .bottom-content {
+                align-self: flex-end; /* Alinea este contenido en la parte inferior */
+        }
+}
