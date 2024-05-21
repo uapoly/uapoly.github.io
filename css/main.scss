@@ -34,8 +34,8 @@
 // }
 
 // variables.less
-$theme-primary: #2fa700;
-$theme-dark: #2fa700;
+$theme-primary: #00509b;
+$theme-dark: #00509b;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -43,17 +43,18 @@ $theme-dark: #2fa700;
         "base"
 ;
 
-.header-content-inner-dos {
+.header-content-inner {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center; /* Centra el contenido horizontalmente */
         height: 100%; /* Asegura que el contenido ocupe toda la altura del contenedor */
-
+    
         .top-content {
-                align-self: flex-start; /* Alinea este contenido en la parte superior */
+            align-self: flex-start; /* Alinea este contenido en la parte superior */
         }
-
+    
         .bottom-content {
-                align-self: flex-end; /* Alinea este contenido en la parte inferior */
+            align-self: flex-end; /* Alinea este contenido en la parte inferior */
         }
-}
+    }
