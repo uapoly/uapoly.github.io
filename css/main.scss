@@ -43,19 +43,23 @@ $theme-dark: #00509b;
         "base"
 ;
 
-.header-content-3 .header-content-inner-dos {
+.header-content-3 {
+        position: relative;
+    }
+    
+    .header-content-3 .header-content-inner-dos {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 100%;
-
-}
-
-.header-content-3 .top-content {
-        align-self: flex-start;
-}
-
-.header-content-3 .bottom-content {
-        align-self: flex-end;
-}
+        height: calc(100vh - 100px); /* Resta el tamaño de la barra de navegación */
+    }
+    
+    .header-content-3 .top-content {
+        margin-bottom: auto; /* Empuja hacia abajo hasta la línea azul */
+    }
+    
+    .header-content-3 .bottom-content {
+        margin-top: auto; /* Empuja hacia abajo todo lo posible */
+    }
+    
