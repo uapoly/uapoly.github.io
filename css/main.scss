@@ -43,18 +43,19 @@ $theme-dark: #00509b;
         "base"
 ;
 
-.header-content-inner-dos {
+.header-content .header-content-inner-dos {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center; /* Centra el contenido horizontalmente */
-        height: 100%; /* Asegura que el contenido ocupe toda la altura del contenedor */
+        align-items: center;
+        height: 100%;
 
-        .top-content {
-                align-self: flex-start; /* Alinea este contenido en la parte superior */
-        }
+}
 
-        .bottom-content {
-                align-self: flex-end; /* Alinea este contenido en la parte inferior */
-        }
+.header-content .top-content {
+        align-self: flex-start;
+}
+
+.header-content .bottom-content {
+        align-self: flex-end;
 }
