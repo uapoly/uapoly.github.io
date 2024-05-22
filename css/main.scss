@@ -52,13 +52,15 @@ $theme-dark: #00509b;
     }
     
     .header-content-3 .top-content {
-        margin-bottom: 30%; /* Ajusta la separación hacia abajo */
+        margin-bottom: auto; /* Ajusta la separación hacia abajo */
     }
     
     .header-content-3 .bottom-content {
         margin-top: auto; /* Empuja hacia abajo todo lo posible */
         margin-bottom: 40px; /* Ajusta los márgenes superiores e inferiores */
         text-align: center; /* Centra el contenido horizontalmente */
+        width: 50%;
+        margin-left: 25%;
     }
     
     
