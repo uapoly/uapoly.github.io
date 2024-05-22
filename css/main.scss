@@ -43,24 +43,16 @@ $theme-dark: #00509b;
         "base"
 ;
 
-.header-content-3 .header-content-inner-dos {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: calc(100vh - 100px); /* Resta el tamaño de la barra de navegación */
-    }
-    
-    .header-content-3 .top-content {
-        margin-bottom: auto; /* Ajusta la separación hacia abajo */
-    }
-    
-    .header-content-3 .bottom-content {
-        margin-top: auto; /* Empuja hacia abajo todo lo posible */
-        margin-bottom: 40px; /* Ajusta los márgenes superiores e inferiores */
-        text-align: center; /* Centra el contenido horizontalmente */
-        width: 50%;
-        margin-left: 25%;
-    }
+.header-content .top-content {
+    margin-bottom: auto; /* Ajusta la separación hacia abajo */
+}
+
+.header-content .bottom-content {
+    margin-top: auto; /* Empuja hacia abajo todo lo posible */
+    margin-bottom: 40px; /* Ajusta los márgenes superiores e inferiores */
+    text-align: center; /* Centra el contenido horizontalmente */
+    width: 50%;
+    margin-left: 25%;
+}
     
     
