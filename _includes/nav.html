@@ -9,8 +9,10 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="img/header3.jpg" alt="UAGames Proyect" style="height: 100%;">
-                <p>UAGames Proyect</p>
+                <div class="brand-container">
+                    <img src="img/header3.jpg" alt="UAGames Proyect" class="brand-img">
+                    <p class="brand-text">UAGames Proyect</p>
+                </div>
             </a>
         </div>
 
@@ -36,3 +38,18 @@
     <!-- /.container-fluid -->
 </nav>
 
+<style>
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-img {
+    height: 50px; /* Ajusta esta altura según sea necesario */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.brand-text {
+    margin: 0; /* Elimina el margen por defecto del <p> */
+}
+</style>
