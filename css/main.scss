@@ -42,17 +42,5 @@ $theme-dark: #00509b;
         "mixins",
         "base"
 ;
-
-.header-content .top-content {
-    margin-bottom: auto; /* Ajusta la separación hacia abajo */
-}
-
-.header-content .bottom-content {
-    margin-top: auto; /* Empuja hacia abajo todo lo posible */
-    margin-bottom: 40px; /* Ajusta los márgenes superiores e inferiores */
-    text-align: center; /* Centra el contenido horizontalmente */
-    width: 50%;
-    margin-left: 25%;
-}
     
     
